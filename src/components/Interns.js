@@ -31,8 +31,8 @@ const Interns = (prop) => {
         const {img, name,id,path,tasks,totalscore} = intern
         
         return (
-
-          <li key={id} className="container">
+            <div classname='container'>
+          <li key={id}>
             <div className='intro'>
             <div className='img'>
               <img src={img} alt=""/>
@@ -53,7 +53,7 @@ const Interns = (prop) => {
             Total Score: {totalscore}
           </p>
             </li>
-
+          </div>
 
 
           
